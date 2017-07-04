@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "600622700113",
+    "firebase_url": "https://goldenjonacafe-fa4a9.firebaseio.com",
+    "project_id": "goldenjonacafe-fa4a9",
+    "storage_bucket": "goldenjonacafe-fa4a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600622700113:android:bec57855f240d77d",
+        "android_client_info": {
+          "package_name": "com.example.xhonilara.goldenjonacafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600622700113-k94b9h5fl6l1ifdjs4ldtg9i591kv1p8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xhonilara.goldenjonacafe",
+            "certificate_hash": "7a0abb2f4042593ec53bca0f1d1c1dde4416a8f5"
+          }
+        },
+        {
+          "client_id": "600622700113-upser4m70gncr2m94kjato0kiloknl11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1O5B2rad2z0_nXmxRAhN-8MWEiaGjV34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600622700113-upser4m70gncr2m94kjato0kiloknl11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    tools:context=".SignUpActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/logo"
+        android:id="@+id/relativeLayout" />
+
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailField"
+        android:layout_below="@+id/emailField"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordField"
+        android:layout_below="@+id/passwordField"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="onClickSignUP"
+        android:text="SIGN UP"
+        android:textStyle="bold" />
+
+</RelativeLayout>

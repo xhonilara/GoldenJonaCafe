@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/background_bar">
+
+    <ImageButton
+        android:id="@+id/imageButtonRateUs"
+        android:layout_width="wrap_content"
+        android:layout_height="161dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/com_facebook_auth_dialog_cancel_background"
+        android:backgroundTint="?android:attr/colorBackgroundCacheHint"
+        app:srcCompat="@drawable/rate_us_now"
+        android:onClick="process"/>
+
+    <ImageView
+        android:id="@+id/imageTrip"
+        android:layout_width="100sp"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="100dp"
+        app:srcCompat="@drawable/tripadvisor" />
+
+</LinearLayout>

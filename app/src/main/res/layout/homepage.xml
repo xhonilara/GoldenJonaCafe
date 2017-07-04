@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_bar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageMenu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/wood_menu"
+        android:onClick="onClickImageMenu"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageInfo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/wood_info"
+        android:onClick="onClickImageInfo"
+        android:layout_alignTop="@+id/imageMenu"
+        android:layout_alignLeft="@+id/imageRateUs"
+        android:layout_alignStart="@+id/imageRateUs" />
+
+
+    <ImageView
+        android:id="@+id/imageEvents"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/wood_events"
+        android:onClick="onClickImageEvents"
+        android:layout_alignTop="@+id/imageRateUs"
+        android:layout_alignLeft="@+id/imageMenu"
+        android:layout_alignStart="@+id/imageMenu" />
+
+    <ImageView
+        android:id="@+id/imageRateUs"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/wood_rate_us"
+        android:onClick="onClickImageRateUs"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/imageInfo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
